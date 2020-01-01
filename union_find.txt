@@ -1,0 +1,17 @@
+Union find
+- Dynamic connectivity problem: The input is a sequence of pairs of integers, where each integer represents 
+  an object of some type and we are to interpret the pair p q as meaning p is connected to q. 
+- We assume that the connection is an equivalence relation: symmetric, transitive, and reflexive
+- union command: connect 2 subjects
+- connected command: is there a path connecting the two subjects?
+
+Modelling the objects
+- Applications involve manipulating objects of all types
+- Good to name objects 1, ..., N - 1
+- Can use symbol table to translate site names to integers - more in chapter 3
+
+- Quadratic algorithms do not scale with technology
+    - New computer must be 10x as fast, but also has 10x as much memory -> wants to solve problem that is 10x as big
+    - With Quadratic algorithm, 10x as slow!!
+
+    
